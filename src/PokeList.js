@@ -1,7 +1,13 @@
 import React from 'react';
+import Pokemon from './Pokemon';
 
-export default function PokeList() {
+export default function PokeList({ pokemon }) {
   return (
-    <div>PokeList</div>
+    <div className='pokemanz'>
+      {
+        pokemon.map((poke) =>
+          <Pokemon key={poke.id} pokemon={poke}/>)
+      }
+    </div>
   );
 }

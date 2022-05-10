@@ -25,7 +25,7 @@ export default function App() {
       <h2>Current Page {page}</h2>
       <div className='buttons'>
         <button disabled={page <= 1} onClick={() => setPage(page - 1)}>Previous Page</button>
-        <button disabled={page >= 53} onClick={() => setPage(page + 1)}>Next Page</button>
+        <button disabled={page >= 8} onClick={() => setPage(page + 1)}>Next Page</button>
       </div>
       <PokeList pokemon={pokemon}/>
     </>
