@@ -22,6 +22,7 @@ export default function App() {
   
   return (
     <>
+      <h1>Click on a Pokemon to view its stats!</h1>
       <h2>Current Page {page}</h2>
       <div className='buttons'>
         <button disabled={page <= 1} onClick={() => setPage(page - 1)}>Previous Page</button>

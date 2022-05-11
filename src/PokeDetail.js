@@ -21,7 +21,7 @@ export default function PokeDetail() {
       <Link to='/'>Home</Link>
       <div className='poke-detail'>
         <h2>{pokemon.name}</h2>
-        <p>Is pokedex number: {pokemon.id}</p>
+        <p>Pokedex Number: {pokemon.id}</p>
         <p>Type: {pokemon.type1} & {pokemon.type2}</p>
         <p>HP: {pokemon.hp}</p>
         <p>Attack: {pokemon.attack}</p>
